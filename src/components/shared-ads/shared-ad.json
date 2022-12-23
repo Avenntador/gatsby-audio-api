@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_ads_shared_ads",
+  "info": {
+    "displayName": "sharedAd",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

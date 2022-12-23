@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_product_image_product_images",
+  "info": {
+    "displayName": "productImage",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

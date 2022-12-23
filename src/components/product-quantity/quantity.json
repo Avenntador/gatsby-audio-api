@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_product_quantity_quantities",
+  "info": {
+    "displayName": "quantity",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "quantity": {
+      "type": "integer"
+    },
+    "item": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_gallery_gallery_with_entites",
+  "info": {
+    "displayName": "gallery-with-entites",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "gallery": {
+      "displayName": "item",
+      "type": "component",
+      "repeatable": true,
+      "component": "gallery-item.item"
+    }
+  }
+}

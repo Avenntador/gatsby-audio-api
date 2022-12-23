@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_thumbnails_shared_thumbnails",
+  "info": {
+    "displayName": "sharedThumbnail",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_hero_items_home_hero_items",
+  "info": {
+    "displayName": "homeHeroItem",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "image_hero": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
