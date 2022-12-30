@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_components_home_first_blocks",
+  "info": {
+    "displayName": "Home_product_block",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.image"
+    }
+  }
+}

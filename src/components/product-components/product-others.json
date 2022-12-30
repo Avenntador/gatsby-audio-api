@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_product_components_product_others",
+  "info": {
+    "displayName": "product_others"
+  },
+  "options": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.image"
+    }
+  }
+}

@@ -12,57 +12,58 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string",
-      "required": true
-    },
-    "slug": {
-      "type": "string",
-      "required": true
-    },
-    "category": {
-      "type": "string",
-      "required": true
-    },
-    "new": {
-      "type": "boolean",
-      "default": false,
-      "required": true
+    "title": {
+      "type": "string"
     },
     "price": {
-      "required": true,
-      "type": "integer"
+      "type": "decimal"
     },
-    "description": {
-      "type": "richtext",
-      "required": true
+    "isNew": {
+      "type": "boolean",
+      "default": false
+    },
+    "desc": {
+      "type": "richtext"
     },
     "features": {
-      "type": "richtext",
-      "required": true
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string"
     },
     "includes": {
-      "displayName": "quantity",
+      "displayName": "product_includes",
       "type": "component",
       "repeatable": true,
-      "component": "product-quantity.quantity"
+      "component": "product-components.product-includes"
     },
-    "gallery": {
-      "displayName": "gallery-with-entites",
+    "image": {
       "type": "component",
-      "repeatable": true,
-      "component": "gallery.gallery-with-entites"
+      "repeatable": false,
+      "component": "images.image"
     },
     "others": {
+      "displayName": "product_others",
       "type": "component",
       "repeatable": true,
-      "component": "other-fields.other"
+      "component": "product-components.product-others"
     },
-    "product_image": {
-      "displayName": "productImage",
+    "gallery": {
+      "displayName": "product_gallery",
       "type": "component",
-      "repeatable": true,
-      "component": "product-image.product-image"
+      "repeatable": false,
+      "component": "product-components.product-gallery"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "products"
+    },
+    "categoryImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.image"
     }
   }
 }

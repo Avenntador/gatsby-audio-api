@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_thumbnails_component_thumbnails_items",
+  "info": {
+    "displayName": "thumbnails-item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
