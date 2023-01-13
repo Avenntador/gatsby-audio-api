@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "thumbnail": {
+    "thumbnails": {
       "displayName": "thumbnails-item",
       "type": "component",
       "repeatable": true,
