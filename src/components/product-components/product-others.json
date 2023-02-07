@@ -1,7 +1,8 @@
 {
   "collectionName": "components_product_components_product_others",
   "info": {
-    "displayName": "product_others"
+    "displayName": "product_others",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,6 +16,11 @@
       "type": "component",
       "repeatable": false,
       "component": "images.image"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
     }
   }
 }

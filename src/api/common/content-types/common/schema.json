@@ -4,19 +4,49 @@
   "info": {
     "singularName": "common",
     "pluralName": "commons",
-    "displayName": "Common"
+    "displayName": "Common",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "logo": {
+    "mainLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
+      ]
+    },
+    "paymentLogo": {
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "cartLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "socials": {
+      "displayName": "media",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.media"
     }
   }
 }
